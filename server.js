@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 
 // API route
-app.get('/api/endpoint', (req, res) => {
+app.get('/api/message', (req, res) => {
   res.json({ message: 'API is working' });
 });
 
