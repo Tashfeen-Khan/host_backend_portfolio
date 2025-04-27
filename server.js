@@ -8,7 +8,7 @@ app.use(cors());
 // Or, allow only specific domain:
 // app.use(cors({ origin: 'https://yourfrontenddomain.com' }));
 
-app.get('/api/endpoint', (req, res) => {
+app.get('/api/message', (req, res) => {
   res.json({ message: 'API is working' });
 });
 
